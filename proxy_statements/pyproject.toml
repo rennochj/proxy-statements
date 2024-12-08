@@ -10,20 +10,22 @@ python = "^3.12"
 pandas = "^2.2.3"
 openai = "^1.55.0"
 jupyter = "^1.1.1"
-quanthub = "^0.1"
 python-dotenv = "^1.0.1"
 poetry-dotenv-plugin = "^0.2.0"
 poetry-plugin-dotenv = "^2.6.0"
 langchain = "^0.3.9"
 langchain-community = "^0.3.9"
 langchain-openai = "^0.2.11"
-lancedb = "^0.16.0"
 langchain-chroma = "^0.1.4"
 chromadb = "^0.5.23"
-faiss-cpu = "^1.9.0.post1"
 pypdf = "^5.1.0"
 langchain-cli = "^0.0.35"
+langchain-ollama = "^0.2.1"
+langchain-core = "^0.3.22"
 
+[tool.poetry.plugins.dotenv]
+ignore = "false"
+location = ".env"
 
 [build-system]
 requires = ["poetry-core"]
