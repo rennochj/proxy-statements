@@ -2587,6 +2587,52 @@ files = [
 langchain-core = ">=0.3.15,<0.4.0"
 
 [[package]]
+name = "langgraph"
+version = "0.2.56"
+description = "Building stateful, multi-actor applications with LLMs"
+optional = false
+python-versions = "<4.0,>=3.9.0"
+files = [
+    {file = "langgraph-0.2.56-py3-none-any.whl", hash = "sha256:ad8a4b772e34dc0137e890bb6ced596a39a1e684af66250c1e7c8150dbe90e9c"},
+    {file = "langgraph-0.2.56.tar.gz", hash = "sha256:af10b1ffd10d52fd4072a73f154b8c2513c0b22e5bd5d20f4567dfeecab98d1e"},
+]
+
+[package.dependencies]
+langchain-core = ">=0.2.43,<0.3.0 || >0.3.0,<0.3.1 || >0.3.1,<0.3.2 || >0.3.2,<0.3.3 || >0.3.3,<0.3.4 || >0.3.4,<0.3.5 || >0.3.5,<0.3.6 || >0.3.6,<0.3.7 || >0.3.7,<0.3.8 || >0.3.8,<0.3.9 || >0.3.9,<0.3.10 || >0.3.10,<0.3.11 || >0.3.11,<0.3.12 || >0.3.12,<0.3.13 || >0.3.13,<0.3.14 || >0.3.14,<0.4.0"
+langgraph-checkpoint = ">=2.0.4,<3.0.0"
+langgraph-sdk = ">=0.1.42,<0.2.0"
+
+[[package]]
+name = "langgraph-checkpoint"
+version = "2.0.8"
+description = "Library with base interfaces for LangGraph checkpoint savers."
+optional = false
+python-versions = "<4.0.0,>=3.9.0"
+files = [
+    {file = "langgraph_checkpoint-2.0.8-py3-none-any.whl", hash = "sha256:c65243e0d759ca6f556d01fc0039c545fdc8c6917214e750c9ecf8a7bc78bec6"},
+    {file = "langgraph_checkpoint-2.0.8.tar.gz", hash = "sha256:897c21d677d62946481334b3b37e8ae25f6b7fd474f3bc4ee3715ec5fd5f6055"},
+]
+
+[package.dependencies]
+langchain-core = ">=0.2.38,<0.4"
+msgpack = ">=1.1.0,<2.0.0"
+
+[[package]]
+name = "langgraph-sdk"
+version = "0.1.43"
+description = "SDK for interacting with LangGraph API"
+optional = false
+python-versions = "<4.0.0,>=3.9.0"
+files = [
+    {file = "langgraph_sdk-0.1.43-py3-none-any.whl", hash = "sha256:b299dd091a7547dba0ffd041ccacadd1caeb57e0c52f2ccf80de64eac45f6e7a"},
+    {file = "langgraph_sdk-0.1.43.tar.gz", hash = "sha256:3df9c1bc946dcaf0e3e4453e51509166495e2ce1dcd2273426e22ff9317e64f5"},
+]
+
+[package.dependencies]
+httpx = ">=0.25.2"
+orjson = ">=3.10.1"
+
+[[package]]
 name = "langserve"
 version = "0.3.0"
 description = ""
@@ -6364,4 +6410,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "90636efa05f1bff5a8b44ccd982a5afd83285c0fe9bb0131f5743f7cbc4fedcc"
+content-hash = "2af0aab559d8e446fb7fb9f0b57f4d144f8c12131c0172a848ed3565679a150b"

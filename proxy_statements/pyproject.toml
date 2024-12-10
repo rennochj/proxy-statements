@@ -22,6 +22,7 @@ pypdf = "^5.1.0"
 langchain-cli = "^0.0.35"
 langchain-ollama = "^0.2.1"
 langchain-core = "^0.3.22"
+langgraph = "^0.2.56"
 
 [tool.poetry.plugins.dotenv]
 ignore = "false"
